@@ -10,7 +10,7 @@
 * [Reading Man pages](http://www.linuxcommand.org/lc3_man_pages/man1.html/)
 * [Keyboard shortcuts for Bash](https://www.howtogeek.com/howto/ubuntu/keyboard-shortcuts-for-bash-command-shell-for-ubuntu-debian-suse-redhat-linux-etc/)
 * [LTS](https://www.wiki.ubuntu.com/LTS/)
-* [Shebang](https://www.en.m.wikipedia.org/wiki/Shebang_(Unix)/)
+* [Shebang](https://www.en.m.wikipedia.org/wiki/Shebang_(Unix))
 ### man or help:
 * `cd`
 * `ls`

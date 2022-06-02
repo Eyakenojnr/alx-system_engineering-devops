@@ -16,4 +16,4 @@
 * `tr`
 * `rev`
 * `cut`
-* `passwd (5)` (i.e. `_man 5 passwd_`
+* `passwd (5)` (i.e. _`man 5 passwd`_)

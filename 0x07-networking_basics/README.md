@@ -54,7 +54,7 @@ In this project, the main focus is on:
 * The Transport layer and especially TCP/UDP
 * On the Network layer with IP and ICMP
 The image bellow describes more concretely how you can relate to every level.
-![](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/0fc96bd99faa7941b18bcae4c5f90c6acd11791d.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20220901%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220901T233823Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=1883f62ef62accd0e42c861ed94fd0b21c30d97d567ea2d7deca29ee7ca69295)
+![](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/0fc96bd99faa7941b18bcae4c5f90c6acd11791d.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20220901%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220901T233823Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=1883f62ef62accd0e42c861ed94fd0b21c30d97d567ea2d7deca29ee7ca69295.png)
 ### 1. Types of network
 ![](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/4b995d4f8078b44afa968d68a98035d2bd7e8fac.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20220901%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220901T233823Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=a6322ca3594fe630089a5a7488a144a828350fc8fb8e2093166d8b7768a08413)
 LAN connect local devices together, WAN connects LANs together, and WANs are operating over the Internet.

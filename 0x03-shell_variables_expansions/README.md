@@ -43,6 +43,6 @@
 * How to execute commands from a file in the current shell
 
 # More Info
-Read your `/etc/profile`, `/etc/inputrc` and `~/.bashrc` files
+Read `/etc/profile`, `/etc/inputrc` and `~/.bashrc` files
 
 Look at some files in the `/etc/profile.d` directory

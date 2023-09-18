@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 ### BEGIN INIT INFO
 # Provides:         manages `manage_my_process`
 # Required-Start:

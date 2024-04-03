@@ -13,11 +13,10 @@ if __name__ == "__main__":
     todos = requests.get(f"{url}/todos?userId={ID}").json()
 
     # Get the number of completed tasks and total number of tasks
-    completed = sum(1 for task in todos if task.get('completed'))
+    done = sum(1 for task in todos if task.get('completed'))
     total = len(todos)
 
     # Print employee todo list progress and title of completed tasks
-    print(f"Employee {users.get('name')} is done with tasks( \
-          {completed}/{total}):")
+    print(f"Employee {users.get('name')} is done with tasks({done}/{total}):")
     [print(f"\t {task.get('title')}")
      for task in todos if task.get('completed')]

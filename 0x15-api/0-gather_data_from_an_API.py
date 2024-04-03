@@ -17,7 +17,6 @@ if __name__ == "__main__":
     total = len(todos)
 
     # Print employee todo list progress and title of completed tasks
-    print(f"Employee {users.get('name')} is done with tasks(
-          {completed}/{total}):")
-    [print(f"\t{task.get('title')}")
+    print(f"Employee {users.get('name')} is done with tasks({completed}/{total}):")
+    [print(f"\t {task.get('title')}")
      for task in todos if task.get('completed')]

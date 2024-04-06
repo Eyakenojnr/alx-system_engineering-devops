@@ -5,14 +5,19 @@ import requests
 import sys
 
 if __name__ == "__main__":
-    user_id = sys.argv[1]
+    ID = sys.argv[1]
     url = "https://jsonplaceholder.typicode.com/"
-    user = requests.get(url + "users/{}".format(user_id)).json()
-    username = user.get("username")
-    todos = requests.get(url + "todos", params={"userId": user_id}).json()
 
-    with open("{}.csv".format(user_id), "w", newline="") as csvfile:
-        writer = csv.writer(csvfile, quoting=csv.QUOTE_ALL)
+    # GET employee data whose userId is passed to the script
+    users = requests.get(f"{url}/users/{ID}").json()
+    todos = requests.get(f"{url}/todos?userId={ID}").json()
+
+    # Create csv file and write data to it
+    csv_file = f"{ID}.csv"
+    fieldnames = ["USER_ID", "USERNAME", "TASK_COMPLETED_STATUS", "TASK_TITLE"]
+    with open(csv_file, mode='w', newline='') as file:
+        writer = csv.writer(file, quoting=csv.QUOTE_ALL) # Output is quoted
+        writer.writerow(fieldnames)
         [writer.writerow(
-            [user_id, username, t.get("completed"), t.get("title")]
-         ) for t in todos]
+            [ID, users.get('username'), task.get('completed'), task.get('title')])
+         for task in todos]

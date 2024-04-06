@@ -14,11 +14,9 @@ if __name__ == "__main__":
 
     # Create csv file and write data to it
     csv_file = f"{ID}.csv"
-    #fieldn = ["USER_ID", "USERNAME", "TASK_COMPLETED_STATUS", "TASK_TITLE"]
     with open(csv_file, mode='w', newline='') as file:
-        # `quoting=csv.QUOTE_ALL` ensures output is quoted
+        # quoting=csv.QUOTE_ALL ensures output is quoted
         writer = csv.writer(file, quoting=csv.QUOTE_ALL)
-        #writer.writerow(fieldnames)
         [writer.writerow(
             [ID, users.get('username'), task.get('completed'),
              task.get('title')]) for task in todos]

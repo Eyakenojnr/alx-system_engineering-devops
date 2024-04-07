@@ -18,7 +18,7 @@ if __name__ == "__main__":
         task_data = {
             'task': task.get('title'),
             'completed': task.get('completed'),
-            'username': users.get('name')
+            'username': users.get('username')
         }
         export_data["USER_ID"].append(task_data)
 

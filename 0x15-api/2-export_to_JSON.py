@@ -13,14 +13,14 @@ if __name__ == "__main__":
     todos = requests.get(f"{url}/todos?userId={ID}").json()
 
     # Prepare json data to export
-    export_data = {"USER_ID": []}
+    export_data = {ID: []}
     for task in todos:
         task_data = {
             'task': task.get('title'),
             'completed': task.get('completed'),
             'username': users.get('username')
         }
-        export_data["USER_ID"].append(task_data)
+        export_data[ID].append(task_data)
 
     # Export data to JSON file
     json_file = f"{ID}.json"

@@ -14,7 +14,8 @@ if __name__ == "__main__":
         user_id = user.get('id')
         username = user.get('username')
         tasks_for_user = [{'username': username, 'task': task.get('title'),
-                           'completed': task.get('completed')} for task in todos if task.get('userId') == user_id]
+                           'completed': task.get('completed')}
+                          for task in todos if task.get('userId') == user_id]
         # Correctly add tasks for each user to all_tasks dictionary
         all_tasks[user_id] = tasks_for_user
 

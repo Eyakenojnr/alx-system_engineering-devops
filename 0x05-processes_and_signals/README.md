@@ -4,6 +4,13 @@
 * [Linux process](https://www.thegeekstuff.com/2012/03/linux-processes-environment/)
 * [Linux signal](https://www.educative.io/answers/what-are-linux-signals)
 * [Process management in linux](https://www.digitalocean.com/community/tutorials/process-management-in-linux)
+* [Linux signals](https://www.computerhope.com/unix/signals.htm)
+* [&](https://bashitout.com/2013/05/18/Ampersands-on-the-command-line.html)
+* [init.d](https://www.ghacks.net/2009/04/04/get-to-know-linux-the-etcinitd-directory/)
+* [Daemon](https://en.wikipedia.org/wiki/Daemon_%28computing%29)
+* [Positional parameters](https://www.gnu.org/software/bash/manual/html_node/Positional-Parameters.html)
+* [What a zombie process is](https://zombieprocess.wordpress.com/what-is-a-zombie-process/)
+
 ### Linux commands
 * `ps`(Process Status):
 `ps` is a command used to display information about running processes on a Linux system. It provides a snapshot of the currently executing processes, including their process IDs (PIDs), CPU and memory usage, and more. It's a handy tool for monitoring and troubleshooting system activity.
